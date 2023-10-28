@@ -1,0 +1,15 @@
+main {
+    border: 1px solid brown;
+    padding: 10px;
+    
+    display: flex; /* step1 */
+    flex-direction: row; /* step2 */
+    flex-wrap: wrap; /* Step 3*/
+}
+
+.item {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+}

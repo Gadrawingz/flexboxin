@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.one, .two , .three {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.one {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.two {
+    background-color: brown;
+    flex-grow: 3;
+}
+
+.three {
+    background-color: blueviolet;
+    flex-grow: 2;
+}
